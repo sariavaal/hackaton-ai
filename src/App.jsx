@@ -3,30 +3,16 @@ import MapComponent from "./components/Map.jsx";
 import Card from "./components/Card.jsx";
 import LoaderModal from "./components/LoaderModal.jsx";
 import ChatBot from "./components/ChatBot.jsx";
+import Swal from 'sweetalert2'
 
 const App = () => {
   const [response, setResponse] = useState('');
   const [loading, setLoading] = useState(false);
   let [places, setPlaces] = useState( []);
   
-
-  // Maneja los cambios en el input del usuario
-  const handleInputChange = (event) => {
-    setInput(event.target.value);
-  };
-
   const handleLoading = (loadingStatus) => {
     setLoading(loadingStatus);
   }
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (input.trim() !== '') {
-      console.log('Mensaje enviado:', input);
-      // logica para ernviar el mensaje
-      setInput(''); 
-    }
-  };
 
   // Maneja la respuesta del chatbot
   const getResponse = (response) => {
@@ -34,9 +20,14 @@ const App = () => {
     try {
       const parsedResponse = JSON.parse(response);
       const arrayResponse = parsedResponse.places;
-      if (Array.isArray(arrayResponse)) {
+      if (Array.isArray(arrayResponse) && arrayResponse.length > 0) {
         setPlaces(arrayResponse);
       } else {
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'No se han encontrado resultados',
+        })
         console.error("La respuesta no es un array:", arrayResponse);
         setPlaces([]);
       }
