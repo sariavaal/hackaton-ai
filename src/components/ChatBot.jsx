@@ -9,7 +9,7 @@ const configuration = {
 // Construir prompt para el usuario como: "dame 10 lugares turisticos interesantes en Encarnacion"
 function construirPrompt(usuarioPrompt) {
     const contexto = `
-        Devuelve una lista de lugares en el siguiente formato JSON:
+        Devuelve una lista de lugares en el siguiente formato JSON. Devuelve la respuesta como un array:
         [
             {
                 "key": "Nombre del lugar",
@@ -17,15 +17,14 @@ function construirPrompt(usuarioPrompt) {
                 "description": "Una descripción con un texto devuelto por el chat-bot explicando por qué el lugar fue incluido en la lista",
                 "address": "Dirección del lugar",
                 "location": { "lat":-27.3306, "lng": -55.8667}
-            },
-            ...
+            }
         ]
         Prompt del usuario: ${usuarioPrompt}
     `;
     return contexto;
 }
 
-const Chat = () => {
+const Chat = (props) => {
     const [message, setMessage] = useState('');
     const [response, setResponse] = useState('');
 
@@ -59,20 +58,19 @@ const Chat = () => {
                     }
                 }
             );
-            const jsonResponse = JSON.parse(result.data.choices[0].message.content);
-            const formattedResponse = JSON.stringify(jsonResponse, null, 2);
-            setResponse(formattedResponse);
+            console.log(result.data.choices[0].message.content);
+            setResponse(result.data.choices[0].message.content); // Asigna directamente el contenido generado
+            props.getResponse(result.data.choices[0].message.content);
         } catch (error) {
-            console.error('Error al enviar mensaje:', error);
+            console.error('Error sending message:', error);
         }
     }
 
     return (
-        <div>
+        <div className="flex flex-col p-4 border rounded">
             <input type="text" value={message} onChange={handleInputChange} placeholder="Type your message here" />
             <button onClick={handleSendMessage}>Send</button>
-            <p><strong>You:</strong> {message}</p>
-            {response && <p><strong>Chatbot:</strong> {response}</p>}
+            <p>Estos son los lugares que te recomiendo</p>
         </div>
     );
 }

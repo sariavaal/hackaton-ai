@@ -1,6 +1,6 @@
 const Card = ({ nombre, tipo, direccion, descripcion }) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg m-4">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 w-full h-full">
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{nombre}</div>
         <div className="font-bold text-slate-500 text-sm mb-2">{tipo}</div>
