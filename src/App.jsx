@@ -28,10 +28,11 @@ const App = () => {
     console.log(response);
     try {
       const parsedResponse = JSON.parse(response);
-      if (Array.isArray(parsedResponse)) {
-        setPlaces(parsedResponse);
+      const arrayResponse = parsedResponse.places;
+      if (Array.isArray(arrayResponse)) {
+        setPlaces(arrayResponse);
       } else {
-        console.error("La respuesta no es un array:", parsedResponse);
+        console.error("La respuesta no es un array:", arrayResponse);
         setPlaces([]);
       }
     } catch (error) {
