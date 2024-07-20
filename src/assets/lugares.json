@@ -1,0 +1,275 @@
+[
+  {
+    "name": "Hotel Savoy",
+    "description": "Hotel ubicado en la Avda Costanera / Padre Bolik, con una excelente vista al río y cómodas instalaciones. Teléfono: 0982 3600751.",
+    "location": { "lat": -27.3216808, "lng": -55.8700276 },
+    "type": "Alojamiento",
+    "address": "Avda Costanera / Padre Bolik"
+  },
+  {
+    "name": "De la Costa Hotel",
+    "description": "Hotel situado en la Avda Francia, en el Paseo Gastronómico, ideal para disfrutar de la gastronomía local. Teléfono: 0985 142363.",
+    "location": { "lat": -27.334355600000002, "lng": -55.87199081254272 },
+    "type": "Alojamiento",
+    "address": "Avda Francia – Paseo Gastronómico"
+  },
+  {
+    "name": "De la Trinidad Hotel",
+    "description": "Ubicado en Jorge Memmel / Mcal Estigarribia, este hotel ofrece confort y una ubicación estratégica en la ciudad. Teléfono: 0981 898265.",
+    "location": { "lat": -27.3410609, "lng": -55.8657995 },
+    "type": "Alojamiento",
+    "address": "Jorge Memmel / Mcal Estigarribia"
+  },
+  {
+    "name": "Sun Hotel",
+    "description": "Hotel en el Paseo Gastronómico de la Avda Francia, perfecto para disfrutar de la variada oferta culinaria de la zona. Teléfono: 0986 806888.",
+    "location": { "lat": -27.333548175706042, "lng": -55.87226722419928 },
+    "type": "Alojamiento",
+    "address": "Avda Francia – Paseo Gastronómico"
+  },
+  {
+    "name": "Makos Hotel",
+    "description": "Hotel ubicado en Avda Caballero / Lomas Valentinas, conocido por su excelente servicio. Teléfono: 0985 999303.",
+    "location": { "lat": -27.326080352561704, "lng": -55.864039797894705 },
+    "type": "Alojamiento",
+    "address": "Avda Caballero / Lomas Valentinas"
+  },
+  {
+    "name": "Hotel Río Dorado",
+    "description": "Este hotel se encuentra en Mcal Estigarribia / Tomás R. Pereira, y ofrece un ambiente cómodo y acogedor. Teléfono: 0994 856578.",
+    "location": { "lat": -27.331214860149306, "lng": -55.86649810395628 },
+    "type": "Alojamiento",
+    "address": "Mcal Estigarribia / Tomás R. Pereira"
+  },
+  {
+    "name": "Hotel Mandala",
+    "description": "Situado en Cerro Corá / Antequera, el Hotel Mandala es conocido por su ambiente tranquilo y agradable. Teléfono: 0982 739007.",
+    "location": { "lat": -27.3345081, "lng": -55.8705307 },
+    "type": "Alojamiento",
+    "address": "Cerro Corá / Antequera"
+  },
+  {
+    "name": "Arthur Hotel",
+    "description": "Hotel ubicado en Avda Irrazábal c/ Avda Japón, ideal para quienes buscan confort y buena ubicación. Teléfono: 0975 100401.",
+    "location": { "lat": -27.3412649, "lng": -55.8576611 },
+    "type": "Alojamiento",
+    "address": "Avda Irrazábal c/ Avda Japón"
+  },
+  {
+    "name": "Shambala Arthur Hotel",
+    "description": "Ubicado en Villarica / Gral Artigas, este hotel ofrece un servicio personalizado y cómodo. Teléfono: 0994 856003.",
+    "location": { "lat": -27.3304847, "lng": -55.8690673 },
+    "type": "Alojamiento",
+    "address": "Villarica / Gral Artigas"
+  },
+  {
+    "name": "Arthur Palace Hotel",
+    "description": "Hotel en Gral Burguez / Avda Irrazábal, conocido por su elegante diseño y excelente servicio. Teléfono: 0975 100405.",
+    "location": { "lat": -27.341727, "lng": -55.8565304 },
+    "type": "Alojamiento",
+    "address": "Gral Burguez / Avda Irrazábal"
+  },
+  {
+    "name": "Bella Vista Hotel",
+    "description": "Hotel situado en Avda Irrazábal c/ Gral Burguez, conocido por sus cómodas instalaciones y buen servicio. Teléfono: 0983 604 300.",
+    "location": { "lat": -27.341748620535103, "lng": -55.85747843279168 },
+    "type": "Alojamiento",
+    "address": "Avda Irrazábal c/ Gral Burguez"
+  },
+  {
+    "name": "Xoxo Café",
+    "description": "Café ubicado en Avda. Dr. Francia e/ Cerro Corá y 14 de Mayo, ideal para disfrutar de desayunos y meriendas. Teléfono: 0982 002 022.",
+    "location": { "lat": -27.334130996791295, "lng": -55.872238546284585 },
+    "type": "Desayunos y meriendas",
+    "address": "Avda. Dr. Francia e/ Cerro Corá y 14 de Mayo"
+  },
+  {
+    "name": "Oh my ñam",
+    "description": "Café en Sargento Reverchon y Avenida Irrazábal, perfecto para desayunos y meriendas. Teléfono: 0971 627 215.",
+    "location": { "lat": -27.34385140530414, "lng": -55.85824257511998 },
+    "type": "Desayunos y meriendas",
+    "address": "Sargento Reverchon y Avenida Irrazábal"
+  },
+  {
+    "name": "Palove confitería Restaurant",
+    "description": "Ubicado en Avda. Rodríguez de Francia esq/ Cerro Corá, ofrece una gran variedad de opciones para desayunos y meriendas. Teléfono: 071 208 071 / 0985 488 024.",
+    "location": { "lat": -27.33427197791151, "lng": -55.87214682774059 },
+    "type": "Desayunos y meriendas",
+    "address": "Avda. Rodríguez de Francia esq/ Cerro Corá"
+  },
+  {
+    "name": "Provecchio",
+    "description": "Café en 14 de Mayo 370, conocido por sus deliciosas meriendas. Teléfono: 0975 658 480.",
+    "location": { "lat": -27.332820425303556, "lng": -55.86682340395623 },
+    "type": "Desayunos y meriendas",
+    "address": "14 de Mayo 370"
+  },
+  {
+    "name": "Las Delicias",
+    "description": "Ubicado en Padre Kreusser / Honorio González, este lugar es ideal para desayunos y meriendas. Teléfono: 0982 597746.",
+    "location": { "lat": -27.3407394, "lng": -55.8614127 },
+    "type": "Desayunos y meriendas",
+    "address": "Padre Kreusser / Honorio González"
+  },
+  {
+    "name": "Selva Negra",
+    "description": "Café en Independencia Nacional c/ Padre Kreusser, perfecto para disfrutar de un buen café. Teléfono: 0975 659 447.",
+    "location": { "lat": -27.33708689425475, "lng": -55.86120377512031 },
+    "type": "Desayunos y meriendas",
+    "address": "Independencia Nacional c/ Padre Kreusser"
+  },
+  {
+    "name": "Heladería Makos",
+    "description": "Heladería ubicada en Avda Caballero / Lomas Valentinas, conocida por sus deliciosos helados. Teléfono: 0983 501442.",
+    "location": { "lat": -27.326085255308655, "lng": -55.863942359777624 },
+    "type": "Desayunos y meriendas",
+    "address": "Avda Caballero / Lomas Valentinas"
+  },
+  {
+    "name": "Café Martinez",
+    "description": "Café en Avda. Costanera República del Paraguay y Ángel R. Samudio Shopping, ideal para desayunos y meriendas. Teléfono: 0992 830 778.",
+    "location": { "lat": -27.325125843069657, "lng": -55.87562627512062 },
+    "type": "Desayunos y meriendas",
+    "address": "Avda. Costanera República del Paraguay y Ángel R. Samudio Shopping"
+  },
+  {
+    "name": "Dolcissimo Helados",
+    "description": "Heladería con dos sucursales: Sucursal N°1 en Avda. Costanera República del Paraguay y Ángel R. Samudio - Shopping Costanera, y Sucursal N°2 en Avda. Caballero c/ Mcal. Estigarribia. Teléfonos: 0981 005 899 / 0982 398 003.",
+    "location": { "lat": -27.32502605294198, "lng": -55.875493219299614 },
+    "type": "Desayunos y meriendas",
+    "address": "Sucursal N°1 Avda. Costanera República del Paraguay y Ángel R. Samudio - Shopping Costanera, Sucursal N°2 Avda. Caballero c/ Mcal. Estigarribia"
+  },
+  {
+    "name": "Hiroshima Restaurant",
+    "type": "Comida",
+    "location": { "lat": -27.3287054, "lng": -55.863455 },
+    "description": "Ofrece almuerzos y cenas con una variedad de platos japoneses.",
+    "address": "25 de mayo / Lomas Valentinas"
+  },
+  {
+    "name": "Shopping Costanera",
+    "type": "Compras",
+    "location": { "lat": -27.32526855, "lng": -55.87538257959687 },
+    "description": "Un centro comercial con múltiples opciones gastronómicas, incluyendo comida rápida y restaurantes orientales. También cuenta con un cine llamado Cinema Pop Costanera.",
+    "address": "Avda Costanera - A unos pasos de la Costanera San José"
+  },
+  {
+    "name": "Paseo Gastronómico",
+    "type": "Comida",
+    "location": { "lat": -27.335302729784242, "lng": -55.871649119299164 },
+    "description": "Conjunto de varios locales gastronómicos de diversos tipos y para todos los gustos.",
+    "address": "Avda Francia – A unos pasos de la Costanera San José"
+  },
+  {
+    "name": "Casino Carnaval",
+    "type": "Comida",
+    "location": { "lat": -27.3390812, "lng": -55.8576908 },
+    "description": "Ofrece almuerzos y cenas en un ambiente de entretenimiento y juego.",
+    "address": "Avda Irrazábal / Gral Cabañas"
+  },
+  {
+    "name": "America Grill Churrasqueria",
+    "type": "Comida",
+    "location": { "lat": -27.356265254564438, "lng": -55.85512221744787 },
+    "description": "Especializada en churrasco, ofrece almuerzos y cenas.",
+    "address": "San Blas c/ Avda. San Roque G. de Santa Cruz"
+  },
+  {
+    "name": "Novo Rodeio",
+    "type": "Comida",
+    "location": { "lat": -27.356764, "lng": -55.853969 },
+    "description": "Churrasquería que ofrece almuerzos y cenas, conocida por sus especialidades en carnes.",
+    "address": "Avda. San Roque G. de Santa Cruz e/ San Blas y San José"
+  },
+  {
+    "name": "Milord Hotel Boutique",
+    "type": "Comida",
+    "location": { "lat": -27.32977518855502, "lng": -55.872572232791995 },
+    "description": "Restaurante del hotel que ofrece almuerzos y cenas en un ambiente elegante.",
+    "address": "Avda. Dr. José Gaspar R. de Francia esq/ 25 de mayo"
+  },
+  {
+    "name": "Primoli Restaurant",
+    "type": "Comida",
+    "location": { "lat": -27.3413709, "lng": -55.8664126 },
+    "description": "Ofrece almuerzos y cenas con una variedad de platos internacionales.",
+    "address": "Mcal. Estigarribia esq. Jorge Memmel"
+  },
+  {
+    "name": "The Clover Pub",
+    "type": "Comida",
+    "location": { "lat": -27.339031397430706, "lng": -55.857900446284475 },
+    "description": "Un pub que ofrece una amplia selección de bebidas y ambiente relajado.",
+    "address": "Avda Irrazábal / Gral Cabañas"
+  },
+  {
+    "name": "Sun rooftop",
+    "type": "Comida",
+    "location": { "lat": -27.333775365211235, "lng": -55.872256403956186 },
+    "description": "Bar en la azotea que ofrece bebidas y una vista panorámica de la ciudad.",
+    "address": "Avda Francia – Paseo Gastronómico"
+  },
+  {
+    "name": "Buffalo Resto Bar",
+    "type": "Comida",
+    "location": { "lat": -27.33568013823413, "lng": -55.87162718861294 },
+    "description": "Ofrece una variedad de bebidas y comidas en un ambiente relajado.",
+    "address": "Avda Costanera / Monseñor Wiessen"
+  },
+  {
+    "name": "Corner lounger bar",
+    "type": "Comida",
+    "location": { "lat": -27.338806344684205, "lng": -55.85828766162755 },
+    "description": "Bar que ofrece una amplia gama de bebidas y comidas en un ambiente cómodo.",
+    "address": "Avda Costanera / Gral Cabañas"
+  },
+  {
+    "name": "El cobertizo Bar Pool",
+    "type": "Comida",
+    "location": { "lat": -27.328834961452763, "lng": -55.86747880395637 },
+    "description": "Un bar con mesas de billar, ideal para relajarse con amigos.",
+    "address": "25 de mayo e/ J.L. Mallorquín y Mcal. Estigarribia"
+  },
+  {
+    "name": "Silo y Molino San José – Museo Memoria Viva",
+    "type": "Turístico",
+    "location": { "lat": -27.33961434405399, "lng": -55.873624237559504 },
+    "description": "Museo fotográfico e histórico que rescata hechos históricos de la ciudad a través de fotografías.",
+    "address": "Avda Costanera – al lado de la costanera San José"
+  },
+  {
+    "name": "Museo Ferroviario de la estación del tren",
+    "type": "Turístico",
+    "location": { "lat": -27.334111155715224, "lng": -55.8737907963466 },
+    "description": "Museo que narra la historia de la estación del tren y de Encarnación a través de imágenes y objetos antiguos.",
+    "address": "Avda Costanera - a pasos de la costanera San José"
+  },
+  {
+    "name": "Plaza de armas",
+    "type": "Turístico",
+    "location": { "lat": -27.332266349999998, "lng": -55.865624448592854 },
+    "description": "Plaza central con senderos, monumentos, juegos infantiles, estanques y una gran explanada central para eventos culturales.",
+    "address": "14 de mayo / Mcal Estigarribia Tomás R. Pereira y Carlos A. Lopéz"
+  },
+  {
+    "name": "Zona alta comercial",
+    "type": "Turístico",
+    "location": { "lat": -27.32990121358422, "lng": -55.86814891850217 },
+    "description": "Área comercial con bancos, casas de cambio, cooperativas y una variedad de locales gastronómicos y tiendas.",
+    "address": "Alrededores de la plaza de armas de Encarnación en el centro de la ciudad"
+  },
+  {
+    "name": "Circuito Comercial",
+    "type": "Turístico",
+    "location": { "lat": -27.3593327, "lng": -55.8489188 },
+    "description": "Zona baja de Encarnación, conocida por ser un punto de encuentro para turismo de compras.",
+    "address": "Zona baja de Encarnación"
+  },
+  {
+    "name": "Estadio Villa Alegre",
+    "type": "Turístico",
+    "location": { "lat": -27.321760237285947, "lng": -55.84326577512097 },
+    "description": "Estadio creado para la Liga Encarnacena y futuros proyectos deportivos.",
+    "address": "Encarnación"
+  }
+]
