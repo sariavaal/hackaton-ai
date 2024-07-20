@@ -63,7 +63,7 @@ const Chat = () => {
             const formattedResponse = JSON.stringify(jsonResponse, null, 2);
             setResponse(formattedResponse);
         } catch (error) {
-            console.error('Error sending message:', error);
+            console.error('Error al enviar mensaje:', error);
         }
     }
 
