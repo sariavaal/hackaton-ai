@@ -35,6 +35,7 @@ const Chat = (props) => {
   };
 
   const handleSendMessage = async () => {
+    props.handleLoading(true);
     try {
       const prompt = construirPrompt(message);
       const result = await axios.post(
@@ -76,18 +77,24 @@ const Chat = (props) => {
     } catch (error) {
       console.error("Error sending message:", error);
     }
+    props.handleLoading(false);
   };
 
   return (
-    <div className="flex flex-col p-4 border rounded">
+    <div className="m-10 flex msm:flex-row sm:max-w-lg">
       <input
         type="text"
         value={message}
         onChange={handleInputChange}
         placeholder="Type your message here"
+        className="font-sans rounded-md border border-gray-300 px-4 py-2 text-base placeholder-gray-500 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500 sm:flex-1"
       />
-      <button onClick={handleSendMessage}>Send</button>
-      <p>Estos son los lugares que te recomiendo</p>
+      <button
+        onClick={handleSendMessage}
+        className="mt-3 sm:mt-0 sm:ml-3 rounded-md bg-indigo-600 px-4 py-2 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+      >
+        Send
+      </button>
     </div>
   );
 };
