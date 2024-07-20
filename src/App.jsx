@@ -5,21 +5,26 @@ import LoaderModal from "./components/LoaderModal.jsx";
 import ChatBot from "./components/ChatBot.jsx";
 
 const App = () => {
-  const [input, setInput] = useState(""); // Estado para manejar el input del usuario
-  const [places, setPlaces] = useState([]); // Estado para almacenar los lugares
+  const [response, setResponse] = useState('');
+  const [loading, setLoading] = useState(false);
+  let [places, setPlaces] = useState( []);
+  
 
   // Maneja los cambios en el input del usuario
   const handleInputChange = (event) => {
     setInput(event.target.value);
   };
 
-  // Maneja el envío del formulario
+  const handleLoading = (loadingStatus) => {
+    setLoading(loadingStatus);
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (input.trim() !== "") {
-      console.log("Mensaje enviado:", input);
-      // Aquí puedes agregar la lógica para enviar el mensaje al chatbot
-      setInput("");
+    if (input.trim() !== '') {
+      console.log('Mensaje enviado:', input);
+      // logica para ernviar el mensaje
+      setInput(''); 
     }
   };
 
@@ -43,32 +48,28 @@ const App = () => {
 
   return (
     <>
-      <div className="w-screen m-0 p-3 bg-slate-500 flex items-center justify-center">
-        <div className="flex flex-col items-center">
-          <h1 className="text-3xl font-bold mb-2">MAPAS</h1>
-          <LoaderModal />
+      <div className="w-screen max-h-12 m-0 p-3 bg-indigo-500 flex items-center justify-center py-16">
+        <h1 className="title-font text-3xl font-extrabold tracking-tight sm:text-4xl mr-4 text-white ">Descubriendo Encarnación</h1>
+        <div className="text-center w-20">
+          <LoaderModal isOpen={loading}/>
         </div>
+        <ChatBot getResponse={getResponse} handleLoading={handleLoading}/>
       </div>
-      <div>
-        <ChatBot getResponse={getResponse} />
+     <div className="w-50 h-50">
+           <MapComponent locations={places} />
       </div>
-      <MapComponent locations={places} />
-      <h1 className="text-4xl font-bold mb-4 text-center">RESULTADOS</h1>
-      <div className="flex items-center flex-wrap">
-        {places.length > 0 ? (
-          places.map((place) => (
-            <Card
-              key={place.key}
-              nombre={place.key}
-              tipo={place.type}
-              direccion={place.address}
-              descripcion={place.description}
-            />
-          ))
-        ) : (
-          <p>No se encontraron resultados.</p>
-        )}
-      </div>
+      <h1 className="title-font text-4xl text-indigo-500 font-bold mb-4 text-center m-10">Tendencias</h1>
+      <div className='flex items-center'>
+      {places && places.map(place => (
+        <Card
+          key={place.key}  
+          nombre={place.key} 
+          tipo={place.type}
+          direccion={place.address}
+          descripcion={place.description}
+        />
+      ))}
+    </div>
     </>
   );
 };
